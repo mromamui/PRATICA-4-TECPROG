@@ -20,8 +20,8 @@ public class TestCodigo {
 
     @Test
     public void testReverser() {
-        // Testing Reverser is tricky because it either enters an infinite loop or does nothing.
-        // We can only test that it does not throw an exception when given a known program.
+        // Probar Reverser es complicado porque o entra en un bucle infinito o no hace nada.
+        // Solo podemos probar que no lanza una excepción cuando se le da un programa conocido.
         assertDoesNotThrow(() -> Reverser.main(new String[]{"Countdown"}));
     }
 }

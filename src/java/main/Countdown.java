@@ -1,4 +1,6 @@
 public class Countdown extends Program {
+
+    // Cuenta hacia atrás desde un número de entrada hasta cero.
     @Override
     public String run(String programName, int input) {
         StringBuilder output = new StringBuilder();

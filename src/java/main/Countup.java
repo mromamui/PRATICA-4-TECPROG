@@ -1,4 +1,7 @@
 public class Countup extends Program {
+
+
+    // Cuenta hacia arriba desde un número de entrada indefinidamente.
     @Override
     public String run(String programName, int input) {
         StringBuilder output = new StringBuilder();
